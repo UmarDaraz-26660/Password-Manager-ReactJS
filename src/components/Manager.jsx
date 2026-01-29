@@ -32,12 +32,12 @@ const Manager = () => {
 
 
     const showPassword = () => {
-        if (ref.current.src.includes('public/eye.png')) {
-            ref.current.src = 'public/hide.png'
+        if (ref.current.src.includes('/eye.png')) {
+            ref.current.src = '/hide.png'
             passwordref.current.type = "text"
         }
         else {
-            ref.current.src = 'public/eye.png'
+            ref.current.src = '/eye.png'
             passwordref.current.type = "password"
 
         }
