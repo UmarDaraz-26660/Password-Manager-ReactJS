@@ -173,7 +173,7 @@ const Manager = () => {
                         <div className="relative flex w-full gap-4">
                             <input ref={passwordref} value={form.password} name="password" onChange={handleChange} type="password" id='' placeholder='Enter Password' className='border border-purple-700 w-full rounded-2xl p-2' />
                             <span className="absolute right-3 top-1/2 -translate-y-1/2 cursor-pointer" onClick={showPassword}>
-                                <img ref={ref} src="src/assets/eye.png" alt="" width={20} />
+                                <img ref={ref} src="/eye.png" alt="" width={20} />
 
                             </span>
 
